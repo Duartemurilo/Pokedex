@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
   display: flex;
-  justify-content: space-between;
   height: 12vh;
+  position: fixed;
   width: 100%;
+  background-color: white;
   button {
     border: none;
     display: flex;
@@ -18,4 +19,11 @@ export const HeaderContainer = styled.div`
       transform: scale(1.1);
     }
   }
+`
+
+export const HeaderMidle = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
 `

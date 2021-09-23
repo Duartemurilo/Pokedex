@@ -1,23 +1,24 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import { HeaderContainer } from '../Styles/Componets/HeaderStyles'
+import { HeaderContainer, HeaderMidle } from '../Styles/Componets/HeaderStyles'
 
-function Header({ name, button, goTo }) {
+function Header({ name, button, goTo, currentBackground }) {
   const history = useHistory()
 
   return (
     <>
-      {name ? (
-        <HeaderContainer>
+      {currentBackground ? (
+        <HeaderContainer style={{ boxShadow: '0px 28px 50px -30px red' }}>
           <button onClick={() => goTo(history)}>{button}</button>
+
           <h1>{name}</h1>
-          <div></div>
         </HeaderContainer>
       ) : (
-        <HeaderContainer style={{ marginTop: '4vh' }}>
+        <HeaderContainer>
           <button onClick={() => goTo(history)}>{button}</button>
-          <h1>{name}</h1>
-          <div></div>
+          <HeaderMidle>
+            <h1>{name}</h1>
+          </HeaderMidle>
         </HeaderContainer>
       )}
     </>

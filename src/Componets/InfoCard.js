@@ -1,11 +1,24 @@
 import React from 'react'
+import { InfoCardContainer, InfoRow } from '../Styles/Componets/InfoCardStyle'
 
-function InfoCard({ titulo, data }) {
+function InfoCard({ titulo, data, type }) {
   return (
-    <div style={{ display: 'flex', width: '100%', alignItems: 'center' }}>
-      <h3 style={{ marginTop: '8px', marginBottom: '0px', fontSize: '20px' }}>{titulo}</h3>
-      <p style={{ marginTop: '0px', marginBottom: '0px', marginLeft: '10px', fontSize: '25px' }}>{data}</p>
-    </div>
+    <InfoCardContainer>
+      <InfoRow>
+        <ul>
+          <li>
+            {' '}
+            {type ? (
+              <h3>
+                {titulo}:{data}
+              </h3>
+            ) : (
+              <h3>{titulo}</h3>
+            )}
+          </li>
+        </ul>
+      </InfoRow>
+    </InfoCardContainer>
   )
 }
 

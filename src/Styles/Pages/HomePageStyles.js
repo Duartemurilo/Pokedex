@@ -12,6 +12,7 @@ export const HomeContainer = styled.div`
 export const BodyHome = styled.div`
   display: flex;
   width: 95%;
+  margin-top: 10vh;
   margin-left: 5vw;
   flex-wrap: wrap;
 `
