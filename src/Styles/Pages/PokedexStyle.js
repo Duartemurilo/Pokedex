@@ -12,6 +12,7 @@ export const PokedexContainer = styled.div`
 
 export const BodyPokedex = styled.div`
   display: flex;
+  margin-top: 10vh;
   width: 90%;
   flex-wrap: wrap;
   height: 85vh;
