@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<p align="center">
+ <img widht = '800' alt="Perfil" src = "./src/Assents/PokedexBanner.png"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Pokedex</h1>
 
-## Available Scripts
+ <ul >
+  <li><a href="#objetivo">Objetivo</a></li>
+  <li><a href="#tec"> 🛠  Tecnologias</a></li>
+  <li><a href="#autor">✏️ Autor</a></li>
+  <li><a href="#web">🎨 Layout</a></li>
+ </ul>
 
-In the project directory, you can run:
+<h1>💻  Sobre o projeto</h1>
 
-### `yarn start`
+<p> Como muitas outras crianças eu cresci assistindo pokemon e sonhando em montar minha própria pokedex, então já crescido resolvi criar a minha, nesse projeto usei a conhecida PokéAPI, e ainda usei esse projeto para aprender mais sobre Swr e outras ferramentas de desenvolvimento.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1 id = 'tec'>🛠 Tecnologias </h1
+  
+<ul>
+  <li>React Router</li>
+  <li>styled-components</li>
+  <li>axios</li>
+  <li>material-UI</li>
+  <li>Swr</li>
+</ul> 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h1>Status do Projeto</h1>
 
-### `yarn test`
+<h4>finalizado ✅ </h4>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h1 id = 'Web'>🎨 Layout</h1>
+<h3>WEB</h3>
 
-### `yarn build`
+<p align="center">
+ <img widht = '500'  src = "./src/Assents/GravacaoTelaPokedex.gif"/>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h1>🚀  Como executar o projeto</h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>Pré-requisitos:</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js. Além disto é bom ter um editor para trabalhar com o código como VSCode</p>
 
-### `yarn eject`
+<h1>🧭 Rodando a aplicação web (Frontend)</h1>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h3>Instale as dependências</h3>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+\$ npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3>Execute a aplicação em modo de desenvolvimento</h3>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+\$ npm run start
 
-## Learn More
+<p>O servidor inciará na porta:3000 - acesse <http://localhost:3000></p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h1 id = 'autor'>✏️ Autor</h1>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img  widht = '300' height = '200' alt="Perfil" src = "./src/Assents/PerfilPhoto.jpeg"/>
+                                                                                                              
+<a href="https://github.com/Duartemurilo">duarte Murilo 🌐</a></td>
+                                                      
+                                                      
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
